@@ -23,7 +23,7 @@ final class VerificationCodeIsValid implements Rule, DataAwareRule
      */
     private Throwable|null $exception = null;
 
-    public function __construct(private string|PhoneNumber $phoneNumber)
+    public function __construct(private readonly string|PhoneNumber $phoneNumber)
     {
     }
 
