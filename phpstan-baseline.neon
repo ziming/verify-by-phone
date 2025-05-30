@@ -19,15 +19,6 @@ parameters:
 			path: src/Services/Twilio/TwilioHttpClient.php
 
 		-
-			message: '''
-				#^Class Worksome\\VerifyByPhone\\Validation\\Rules\\VerificationCodeIsValid implements deprecated interface Illuminate\\Contracts\\Validation\\Rule\:
-				see ValidationRule$#
-			'''
-			identifier: class.implementsDeprecatedInterface
-			count: 1
-			path: src/Validation/Rules/VerificationCodeIsValid.php
-
-		-
 			message: '#^Parameter \#1 \$number of class Propaganistas\\LaravelPhone\\PhoneNumber constructor expects string(?:\|null)?, mixed given\.$#'
 			identifier: argument.type
 			count: 1
