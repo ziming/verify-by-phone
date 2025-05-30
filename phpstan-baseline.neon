@@ -28,7 +28,7 @@ parameters:
 			path: src/Validation/Rules/VerificationCodeIsValid.php
 
 		-
-			message: '#^Parameter \#1 \$number of class Propaganistas\\LaravelPhone\\PhoneNumber constructor expects string\|null, mixed given\.$#'
+			message: '#^Parameter \#1 \$number of class Propaganistas\\LaravelPhone\\PhoneNumber constructor expects string(?:\|null)?, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Validation/Rules/VerificationCodeIsValid.php
